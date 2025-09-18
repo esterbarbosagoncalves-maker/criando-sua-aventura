@@ -1,0 +1,75 @@
+/* Resetando as margens e o padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte do site */
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Tela de Capa */
+.tela-capa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4c0073;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo-aventura {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+.btn-iniciar {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-iniciar:hover {
+    background-color: #ff4c39;
+}
+
+/* Tela da História */
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.historia h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.historia p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.5;
+}
